@@ -22,19 +22,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <br />
-            <asp:Label ID="Label3" runat="server" Text="Clave: "></asp:Label>
+            <asp:Label ID="Label3" runat="server" Text="Clave : "></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox2" runat="server" width="128px"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" width="128px" TextMode="Password"></asp:TextBox>
             <br />
             <asp:Label ID="Label4" runat="server" Text="Repita la Clave: "></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox3" runat="server" width="128px"></asp:TextBox>
+            <asp:TextBox ID="TextBox3" runat="server" width="128px" TextMode="Password"></asp:TextBox>
             &nbsp;
             <asp:Label ID="Label33" runat="server"></asp:Label>
             <br />
             <asp:Label ID="Label5" runat="server" Text="Correo Electrónico: "></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox4" runat="server" TextMode="Email"></asp:TextBox>
             <br />
             <asp:Label ID="Label6" runat="server" Text="Apellido: "></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -75,7 +75,7 @@
             <br />
             <asp:Label ID="Label12" runat="server" Text="Fecha de nacimiento &lt;br&gt;(dd/mm/aaaa)"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox9" runat="server" ClientIDMode="AutoID"></asp:TextBox>
+            <asp:TextBox ID="TextBox9" runat="server" ClientIDMode="AutoID" TextMode="DateTime"></asp:TextBox>
             &nbsp;
             <asp:Label ID="Label31" runat="server"></asp:Label>
             <br />
